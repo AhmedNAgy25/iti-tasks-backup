@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 1000px;
+  font-family: "Roboto", sans-serif;
+}
+/* navbar */
+.nav {
+  background: #d9d9d9;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: inline-block;
+  width: 100%;
+}
+.logo {
+  background-color: #070707;
+  color: #bebebe;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 24px;
+  width: fit-content;
+  display: inline-block;
+}
+.menuItems {
+  display: inline-block;
+  margin: 6px;
+  position: absolute;
+  right: 20px;
+  justify-content: center;
+}
+.menuItems ul {
+  display: inline-block;
+}
+.menuItems li {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+/* hero */
+.hero {
+  height: 360px;
+  background: #f95f5f;
+  text-align: center;
+}
+.hero h1 {
+  display: inline-block;
+  color: #fff7ef;
+  margin-top: 161px;
+}
+.imgBg {
+  background-image: url(./img/1094164.png);
+  height: 800px;
+  background-size: cover;
+}
+.imgBg p {
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 3.5px;
+  padding-top: 370px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+/* img and text */
+.imgAndText {
+  margin-top: 40px;
+}
+.imgAndText img {
+  width: 380px;
+}
+.imgAndText .img {
+  width: 380px;
+  margin: 80px auto 50px;
+}
+.imgAndText p {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  line-height: 1.7;
+}

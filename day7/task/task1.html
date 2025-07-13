@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form Validation</title>
+    <link rel="stylesheet" href="task1Style.css">
+</head>
+
+<body>
+
+    <h2>User Form</h2>
+
+    <div class="form-box">
+        <form id="userForm">
+            <label>Name:</label>
+            <input type="text" id="name">
+
+            <label>Age:</label>
+            <input type="number" id="age">
+
+            <label>Email:</label>
+            <input type="text" id="email">
+
+            <div class="buttons">
+                <button type="button" onclick="onAdd()">Add</button>
+                <button type="button" onclick="onReset()">Reset</button>
+            </div>
+
+            <div id="errorMsg" class="error"></div>
+        </form>
+    </div>
+
+    <table id="dataTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="task1.js"></script>
+</body>
+
+</html>
