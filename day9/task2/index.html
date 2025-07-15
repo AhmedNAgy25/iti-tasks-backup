@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img id="img" src="./playListData/img1.jpg" alt="">
+        </div>
+        <div class="name">
+            <h2>1th</h2>
+        </div>
+        <div class="audio">
+            <audio loop>
+                <source src="playListData/sound1.mp3">
+            </audio>
+            <p class="current" hidden></p>
+            <input type="range" name="" id="seek" min="0" step="1">
+            <br>
+            <input type="range" name="" id="volume" min="0" max="1" step="0.01">
+            <br>
+            <button class="play">play</button>
+            <button class="pause">pause</button>
+            <button class="stop">stop</button>
+            <button class="mute">mute</button>
+        </div>
+        <div class="slide">
+            <button onclick="change('previous')">previous</button>
+            <button onclick="change('next')">next</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

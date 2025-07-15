@@ -1,0 +1,9 @@
+progress {
+  border: none;
+  width: 400px;
+  height: 30px;
+}
+
+progress::-webkit-progress-value {
+  background: lightblue;
+}
