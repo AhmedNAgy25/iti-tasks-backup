@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: linear-gradient(#e4b3b3, #c23535);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+}
+h2 {
+  padding: 20px;
+}
+
+#tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tab {
+  padding: 10px 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tab:hover {
+  background-color: #ccc;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+}
+
+#posts {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.post-title {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+.post-card {
+  background-color: #fff;
+  border: 1px solid #c5c5c5;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+  max-width: 300px;
+
+  transition: background-color 0.2s;
+}
+.post-card:hover {
+  background-color: #ecebeb;
+}
+.posts-card {
+  color: #007bff;
+  text-align: center;
+}
+.post-body {
+  color: grey;
+}
