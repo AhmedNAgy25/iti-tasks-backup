@@ -33,7 +33,7 @@ function Home() {
             <div>
               <Link
                 to={`/edit/${todo.id}`}
-                className="btn btn-sm btn-warning me-2"
+                className="btn btn-sm btn-dark me-2"
               >
                 Edit
               </Link>
